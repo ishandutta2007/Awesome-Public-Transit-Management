@@ -1,4 +1,4 @@
-﻿# ðŸšŒ Awesome Public Transit Management
+# 🚌 Awesome Public Transit Management
 
 <div align="center">
 
@@ -25,43 +25,43 @@
 
 ---
 
-## ðŸ“‘ Table of Contents
+## 📑 Table of Contents
 
-* [ðŸŒ Market Overview & Ecosystem](#-market-overview--ecosystem)
-* [ðŸ¢ SaaS & Hosted Platforms](#-saashosted-platforms)
+* [🌐 Market Overview & Ecosystem](#-market-overview--ecosystem)
+* [🏢 SaaS & Hosted Platforms](#-saashosted-platforms)
   * [Major Transit Management SaaS Platforms](#major-transit-management-saas-platforms)
   * [Specialized SaaS Modules & Sub-Systems](#specialized-saas-modules--sub-systems)
-* [ðŸ’» Open-Source GitHub Projects](#-open-source-github-projects)
-  * [ðŸ—ºï¸ Mapping & Spatial Web Foundations](#ï¸-mapping--spatial-web-foundations)
-  * [ðŸš¦ Traffic, Transit & Urban Simulation](#-traffic-transit--urban-simulation)
-  * [ðŸ§­ Multimodal Journey & Route Planning](#-multimodal-journey--route-planning)
-  * [ðŸ“Š GTFS Tooling, Parsers & Transit Data Infrastructure](#-gtfs-tooling-parsers--transit-data-infrastructure)
-  * [ðŸ“¡ CAD/AVL, Real-Time Dispatch & Passenger Applications](#-cadavl-real-time-dispatch--passenger-applications)
-* [ðŸ§© Open-Source Public Transit Stack](#-open-source-public-transit-stack)
-* [ðŸ—ºï¸ Commercial Platform Capability Map](#ï¸-commercial-platform-capability-map)
-* [âš–ï¸ SaaS vs Open Source](#ï¸-saas-vs-open-source)
-* [ðŸ“ Open Standards (GTFS, GTFS-RT, TODS, NeTEx)](#-open-standards)
-* [â­ Star History](#-star-history)
-* [ðŸ¤ How to Contribute](#-how-to-contribute)
-* [ðŸ“œ Disclaimer](#-disclaimer)
+* [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  * [🗺️ Mapping & Spatial Web Foundations](#️-mapping--spatial-web-foundations)
+  * [🚦 Traffic, Transit & Urban Simulation](#-traffic-transit--urban-simulation)
+  * [🧭 Multimodal Journey & Route Planning](#-multimodal-journey--route-planning)
+  * [📊 GTFS Tooling, Parsers & Transit Data Infrastructure](#-gtfs-tooling-parsers--transit-data-infrastructure)
+  * [📡 CAD/AVL, Real-Time Dispatch & Passenger Applications](#-cadavl-real-time-dispatch--passenger-applications)
+* [🧩 Open-Source Public Transit Stack](#-open-source-public-transit-stack)
+* [🗺️ Commercial Platform Capability Map](#️-commercial-platform-capability-map)
+* [⚖️ SaaS vs Open Source](#️-saas-vs-open-source)
+* [📐 Open Standards (GTFS, GTFS-RT, TODS, NeTEx)](#-open-standards)
+* [⭐ Star History](#-star-history)
+* [🤝 How to Contribute](#-how-to-contribute)
+* [📜 Disclaimer](#-disclaimer)
 
 ---
 
-## ðŸŒ Market Overview & Ecosystem
+## 🌐 Market Overview & Ecosystem
 
 Public transit management software coordinates **network planning, timetable synchronization, vehicle blocking, collective-bargaining crew scheduling, CAD/AVL telemetry, real-time dispatch, paratransit/NEMT, demand-responsive transit (DRT), passenger information, automated fare collection (AFC), transit simulation, and GTFS/GTFS-RT pipelines**.
 
 * **Open-Source Strengths:** GTFS/GTFS-RT validation, multimodal journey planning (OTP, MOTIS), accessibility analytics (R5), microscopic traffic simulation (SUMO, MATSim), map rendering (Leaflet, MapLibre), and open transit data standards.
 * **Commercial SaaS Strengths:** Tightly integrated mathematical optimization engines for driver duty run-cutting, complex union labor rules, depot charging management, mission-critical real-time operations, and turn-key CAD/AVL hardware integration.
 
-> **ðŸ’¡ Architectural Note:** There is no single open-source repository that completely substitutes an end-to-end enterprise suite like HASTUS or Trapeze. Production-grade open transit stacks are assembled by orchestrating **OpenTripPlanner / MOTIS, OneBusAway, R5, SUMO, OpenStreetMap, and custom dispatch layers**.
+> **💡 Architectural Note:** There is no single open-source repository that completely substitutes an end-to-end enterprise suite like HASTUS or Trapeze. Production-grade open transit stacks are assembled by orchestrating **OpenTripPlanner / MOTIS, OneBusAway, R5, SUMO, OpenStreetMap, and custom dispatch layers**.
 
 ---
 
-## ðŸ¢ SaaS/Hosted Platforms
+## 🏢 SaaS/Hosted Platforms
 
-> ðŸ“Š **Estimated Market Size & Sector Fragmentation:**  
-> The global **Public Transit & Intelligent Transportation Systems (ITS)** software market is valued at approximately **$35.8 Billion in 2025â€“2026** and is projected to expand to **$68.5+ Billion by 2032**, registering a compound annual growth rate (CAGR) of **~10.8%**. The sector is **moderately fragmented**: core enterprise domains (driver union scheduling, fixed-route master blocking, and rail operations) remain consolidated among established global transport conglomerates (Modaxo/Trapeze, GIRO HASTUS, INIT, and Conduent), while fast-growing cloud verticals (AI dynamic scheduling, on-demand microtransit pooling, and machine-learning GTFS-RT arrival prediction) are actively driven by agile venture-backed innovators (Optibus, Via, Spare, RideCo, and Swiftly).
+> 📊 **Estimated Market Size & Sector Fragmentation:**  
+> The global **Public Transit & Intelligent Transportation Systems (ITS)** software market is valued at approximately **$35.8 Billion in 2025–2026** and is projected to expand to **$68.5+ Billion by 2032**, registering a compound annual growth rate (CAGR) of **~10.8%**. The sector is **moderately fragmented**: core enterprise domains (driver union scheduling, fixed-route master blocking, and rail operations) remain consolidated among established global transport conglomerates (Modaxo/Trapeze, GIRO HASTUS, INIT, and Conduent), while fast-growing cloud verticals (AI dynamic scheduling, on-demand microtransit pooling, and machine-learning GTFS-RT arrival prediction) are actively driven by agile venture-backed innovators (Optibus, Via, Spare, RideCo, and Swiftly).
 
 ### Major Transit Management SaaS Platforms
 
@@ -73,12 +73,12 @@ Public transit management software coordinates **network planning, timetable syn
 | **Via Transportation / Remix** | **~$3.5B Valuation** (~$200M+ ARR) | Microtransit, Network Planning, On-Demand Routing | Turnkey and SaaS mobility platform offering algorithmic vehicle pooling, dynamic routing, Remix transit planning, and rider booking apps. | $4,000 / month ($48,000 / year base on-demand SaaS tier) | No free forever plan; 30-day simulation environment limited to 1 virtual service zone and 10 vehicle simulations |
 | **Optibus** | **~$1.3B Valuation** (Unicorn, ~$90M ARR) | Cloud-Native Scheduling, Rostering, EV & Operations | Cloud-native public transportation platform powered by AI optimization for route planning, timetabling, vehicle blocking, crew rostering, EV charging scheduling, and live operations. | $1,500 / month ($18,000 / year base planning tier) | No free forever plan; 14-day sandbox trial limited to 1 agency network model and up to 50 route variations |
 | **Moovit** | **~$900M Valuation** (Intel Mobility Division) | Multimodal MaaS, Transit Data APIs, On-Demand Routing | Urban mobility platform and data service providing passenger navigation, transit APIs, trip planning SDKs, and flexible on-demand microtransit dispatch. | $1.99 / month (Moovit+ app) or $500 / month for Developer Transit Data API | Free forever plan includes ad-supported multimodal journey planning & arrival alerts; 7-day free trial for Moovit+ (ad-free & SafeRide) |
-| **INIT** | **~$260M Revenue** (â‚¬240M+ / Frankfurt: IXX) | Integrated ITS, Planning, CAD/AVL, Ticketing | Integrated public transport technology provider covering planning, scheduling, intermodal transport control (MOBILE-ITCS), fleet management, passenger info, and account-based ticketing. | $3,333 / month ($40,000 / year base license) | No free forever plan; 30-day sandbox pilot trial limited to synthetic telemetry of 15 test vehicles |
+| **INIT** | **~$260M Revenue** (€240M+ / Frankfurt: IXX) | Integrated ITS, Planning, CAD/AVL, Ticketing | Integrated public transport technology provider covering planning, scheduling, intermodal transport control (MOBILE-ITCS), fleet management, passenger info, and account-based ticketing. | $3,333 / month ($40,000 / year base license) | No free forever plan; 30-day sandbox pilot trial limited to synthetic telemetry of 15 test vehicles |
 | **Modaxo Transit** | **~$250M+ Revenue** (Constellation Software Group) | Global Transportation Software Portfolio Solutions | Global conglomerate operating dedicated transit technology business units covering scheduling, ticketing, CAD/AVL, and passenger data systems. | $2,500 / month ($30,000 / year base portfolio module tier) | No free forever plan; 30-day pilot deployment limited to 1 selected subsidiary tool and 15 simulated vehicles |
 | **Trapeze Group** | **~$200M+ Revenue** (Modaxo Subsidiary) | Enterprise Scheduling, Workforce, CAD/AVL, Paratransit | Major enterprise transit software ecosystem spanning fixed-route scheduling, operations dispatch, operator bidding/workforce management, paratransit, and EAM. | $2,083 / month ($25,000 / year base single module) | No free forever plan; 30-day guided pilot evaluation limited to 20 vehicle records and 5 operator rosters |
 | **Clever Devices** | **~$150M Revenue** | Intelligent Transportation Systems (ITS), CAD/AVL, RTPI | Provider of on-board vehicle computers, transit signal priority, automated voice announcements, automated vehicle monitoring, and control center CAD/AVL. | $2,083 / month ($25,000 / year base cloud analytics tier) | No free forever plan; 30-day telemetry evaluation sandbox limited to 10 vehicle tracking data streams |
 | **GIRO HASTUS** | **~$120M Revenue** (CAD $160M+) | Advanced Timetabling, Vehicle/Crew Optimization, Rostering | Leading enterprise transit planning and operations suite known for mathematical optimization algorithms handling complex vehicle blocking, collective bargaining, and crew scheduling. | $2,500 / month ($30,000 / year base scheduling tier) | No free forever plan; 30-day proof-of-concept sandbox trial limited to 1 depot and up to 30 vehicle blocks |
-| **GMV** | **~$110M+ Revenue** (ITS Division / â‚¬400M+ Group) | ITS, Fleet Management, CAD/AVL & Ticketing | Global intelligent transport systems provider offering cloud-based CAD/AVL (Syncromatics), real-time passenger info displays, and ticketing hardware. | $1,800 / month ($21,600 / year base cloud tracking tier) | No free forever plan; 30-day live tracking portal trial limited to 10 active GPS trackers / test vehicles |
+| **GMV** | **~$110M+ Revenue** (ITS Division / €400M+ Group) | ITS, Fleet Management, CAD/AVL & Ticketing | Global intelligent transport systems provider offering cloud-based CAD/AVL (Syncromatics), real-time passenger info displays, and ticketing hardware. | $1,800 / month ($21,600 / year base cloud tracking tier) | No free forever plan; 30-day live tracking portal trial limited to 10 active GPS trackers / test vehicles |
 | **Swiftly** | **~$300M Valuation** (~$35M ARR) | Real-Time Transit Data, CAD/AVL, Prediction Analytics | Cloud-based transit data engine providing high-accuracy vehicle arrival predictions, real-time dispatch tools, speed maps, and on-time performance analytics. | $1,000 / month ($12,000 / year base GPS tier) | No free forever plan; 30-day live pilot trial limited to 25 tracked vehicles and 5 active routes |
 | **Spare** | **~$150M Valuation** (~$20M ARR) | On-Demand Transit, Paratransit, Microtransit Dispatch | Cloud-based microtransit and paratransit software providing automated on-demand dispatch, driver apps, pooling optimization, and rider booking interfaces. | $20 / vehicle / month ($1,200 / month minimum tier) | No free forever plan; 14-day sandbox dispatch trial limited to 5 test vehicles and 50 simulated bookings |
 | **RideCo** | **~$80M Valuation** (~$15M ARR) | Demand-Responsive Transit & Microtransit Optimization | High-capacity microtransit and paratransit platform focusing on dynamic routing, shared-ride optimization, automated dispatch, and agency fleet coordination. | $3,500 / month ($42,000 / year base platform tier) | No free forever plan; 30-day agency pilot simulation limited to 1 designated zone and 10 active vehicles |
@@ -138,11 +138,11 @@ Public transit management software coordinates **network planning, timetable syn
 
 ---
 
-## ðŸ’» Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 *Each open-source repository is annotated with its live GitHub star badge (linking directly to its stargazers page) and sorted by total star count in descending order.*
 
-### ðŸ—ºï¸ Mapping & Spatial Web Foundations
+### 🗺️ Mapping & Spatial Web Foundations
 
 *Foundational client-side map rendering engines and geospatial web toolkits utilized across modern transit dashboards, AVL map displays, and journey planner interfaces.*
 
@@ -155,7 +155,7 @@ Public transit management software coordinates **network planning, timetable syn
 
 ---
 
-### ðŸš¦ Traffic, Transit & Urban Simulation
+### 🚦 Traffic, Transit & Urban Simulation
 
 *Microscopic, mesoscopic, and agent-based transportation simulation platforms for analyzing transit priority, dedicated bus lanes, EV charging, and fleet scaling.*
 
@@ -170,7 +170,7 @@ Public transit management software coordinates **network planning, timetable syn
 
 ---
 
-### ðŸ§­ Multimodal Journey & Route Planning
+### 🧭 Multimodal Journey & Route Planning
 
 *High-throughput routing backends, transit routing algorithms (RAPTOR, CSA), and accessibility computation tools using GTFS and OpenStreetMap.*
 
@@ -197,7 +197,7 @@ Public transit management software coordinates **network planning, timetable syn
 
 ---
 
-### ðŸ“Š GTFS Tooling, Parsers & Transit Data Infrastructure
+### 📊 GTFS Tooling, Parsers & Transit Data Infrastructure
 
 *Utilities, validation tools, data cleaners, format converters, and data store solutions for General Transit Feed Specification datasets.*
 
@@ -218,7 +218,7 @@ Public transit management software coordinates **network planning, timetable syn
 
 ---
 
-### ðŸ“¡ CAD/AVL, Real-Time Dispatch & Passenger Applications
+### 📡 CAD/AVL, Real-Time Dispatch & Passenger Applications
 
 *Open-source Automatic Vehicle Location (AVL), Computer-Aided Dispatch (CAD) backends, vehicle tracking prediction engines, and passenger mobile interfaces.*
 
@@ -233,44 +233,44 @@ Public transit management software coordinates **network planning, timetable syn
 
 ---
 
-## ðŸ§© Open-Source Public Transit Stack
+## 🧩 Open-Source Public Transit Stack
 
 A production open-source architecture for a municipal transit authority is assembled from complementary specialized components:
 
 ```text
-                          â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-                          â”‚   PUBLIC TRANSIT AGENCY   â”‚
-                          â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                        â”‚
-           â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-           â”‚                            â”‚                            â”‚
-           â–¼                            â–¼                            â–¼
+                          ┌───────────────────────────┐
+                          │   PUBLIC TRANSIT AGENCY   │
+                          └─────────────┬─────────────┘
+                                        │
+           ┌────────────────────────────┼────────────────────────────┐
+           │                            │                            │
+           ▼                            ▼                            ▼
   STRATEGIC PLANNING            OPERATIONS & CAD/AVL          PASSENGER INFORMATION
-           â”‚                            â”‚                            â”‚
+           │                            │                            │
    Conveyal / R5 / SUMO         Transit Clock / AVI          OpenTripPlanner / MOTIS
   Accessibility & Routing     GTFS-Realtime Telemetry       OneBusAway / Trufi App
-           â”‚                            â”‚                            â”‚
-           â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                        â”‚
-                               â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”
-                               â”‚   GTFS / TODS   â”‚
-                               â”‚  Transit Data   â”‚
-                               â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                        â”‚
-                               â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”
-                               â”‚  OpenStreetMap  â”‚
-                               â”‚ Geographic Data â”‚
-                               â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                        â”‚
-                         â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-                         â”‚   Web & Mobile Client Apps   â”‚
-                         â”‚ Leaflet / MapLibre / HTML5  â”‚
-                         â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+           │                            │                            │
+           └────────────────────────────┼────────────────────────────┘
+                                        │
+                               ┌────────▼────────┐
+                               │   GTFS / TODS   │
+                               │  Transit Data   │
+                               └────────┬────────┘
+                                        │
+                               ┌────────▼────────┐
+                               │  OpenStreetMap  │
+                               │ Geographic Data │
+                               └────────┬────────┘
+                                        │
+                         ┌──────────────▼──────────────┐
+                         │   Web & Mobile Client Apps   │
+                         │ Leaflet / MapLibre / HTML5  │
+                         └─────────────────────────────┘
 ```
 
 ---
 
-## ðŸ—ºï¸ Commercial Platform Capability Map
+## 🗺️ Commercial Platform Capability Map
 
 | Transit Capability | Commercial Market Leaders | Strong Open-Source Alternatives |
 | :--- | :--- | :--- |
@@ -288,7 +288,7 @@ A production open-source architecture for a municipal transit authority is assem
 
 ---
 
-## âš–ï¸ SaaS vs Open Source
+## ⚖️ SaaS vs Open Source
 
 | Dimension | SaaS / Commercial Platforms | Open-Source Transit Stack |
 | :--- | :--- | :--- |
@@ -301,25 +301,25 @@ A production open-source architecture for a municipal transit authority is assem
 
 ---
 
-## ðŸ“ Open Standards
+## 📐 Open Standards
 
 Interoperability across transit planning and operational hardware depends on established open standards:
 
-* ðŸš **GTFS (General Transit Feed Specification - Static):** The global data format for transit schedules, stops, routes, service calendars, shapes, and fares.
-* ðŸ›°ï¸ **GTFS-Realtime (GTFS-RT):** Protocol buffer specification transmitting live vehicle positions, trip arrival updates, and service disruption alerts.
-* ðŸ“Š **TODS (Transit Operational Data Standard):** Open data specification standardizing operational schedules and deadhead details between scheduling and CAD/AVL software.
-* ðŸ‡ªðŸ‡º **NeTEx (Network Timetable Exchange):** European CEN standard for exchanging detailed public transport scheduled network information.
-* ðŸš² **GBFS (General Bikeshare Feed Specification):** Open data standard for real-time shared micromobility availability (bikes, scooters, docks).
+* 🚏 **GTFS (General Transit Feed Specification - Static):** The global data format for transit schedules, stops, routes, service calendars, shapes, and fares.
+* 🛰️ **GTFS-Realtime (GTFS-RT):** Protocol buffer specification transmitting live vehicle positions, trip arrival updates, and service disruption alerts.
+* 📊 **TODS (Transit Operational Data Standard):** Open data specification standardizing operational schedules and deadhead details between scheduling and CAD/AVL software.
+* 🇪🇺 **NeTEx (Network Timetable Exchange):** European CEN standard for exchanging detailed public transport scheduled network information.
+* 🚲 **GBFS (General Bikeshare Feed Specification):** Open data standard for real-time shared micromobility availability (bikes, scooters, docks).
 
 ---
 
-## â­ Star History
+## ⭐ Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Public-Transit-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Public-Transit-Management&type=date&legend=top-left)
 
 ---
 
-## ðŸ¤ How to Contribute
+## 🤝 How to Contribute
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -329,11 +329,11 @@ Contributions are welcome! Please follow these guidelines:
 4. For Open-Source projects, link to the GitHub repository and include the official stargazer badge `[![GitHub stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)`.
 5. Submit a concise Pull Request describing the addition.
 
-â­ **Star this repository** if you find it helpful for public transit technology research!
+⭐ **Star this repository** if you find it helpful for public transit technology research!
 
 ---
 
-## ðŸ“œ Disclaimer
+## 📜 Disclaimer
 
 * This repository is a **community-curated index** for informational and educational purposes.
 * Product names, trademarks, logos, and company valuations belong to their respective owners.
