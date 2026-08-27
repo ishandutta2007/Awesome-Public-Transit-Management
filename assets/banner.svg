@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Glowing Line Gradients -->
+    <linearGradient id="line-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="1" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="line-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="1" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="line-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="1" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="node-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- CSS Animations -->
+    <style>
+      @keyframes pulse-node {
+        0%, 100% { r: 6px; opacity: 0.8; }
+        50% { r: 9px; opacity: 1; filter: drop-shadow(0 0 8px #38bdf8); }
+      }
+      @keyframes pulse-ring {
+        0% { r: 8px; opacity: 0.8; }
+        100% { r: 24px; opacity: 0; }
+      }
+      @keyframes dash-flow {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes float-badge {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
+      }
+      @keyframes bg-glow-shift {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.7; }
+      }
+      .node-pulse { animation: pulse-node 3s infinite ease-in-out; }
+      .ring-pulse-1 { animation: pulse-ring 2.5s infinite cubic-bezier(0.2, 0, 0.8, 1); }
+      .ring-pulse-2 { animation: pulse-ring 3s infinite cubic-bezier(0.2, 0, 0.8, 1) 1s; }
+      .flow-path { stroke-dasharray: 8 12; animation: dash-flow 15s linear infinite; }
+      .floating { animation: float-badge 4s infinite ease-in-out; }
+      .bg-pulse { animation: bg-glow-shift 6s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" />
+
+  <!-- Background Ambient Glows -->
+  <circle cx="150" cy="180" r="180" fill="#3b82f6" opacity="0.12" filter="url(#glow)" class="bg-pulse" />
+  <circle cx="950" cy="120" r="220" fill="#8b5cf6" opacity="0.15" filter="url(#glow)" class="bg-pulse" />
+  <circle cx="600" cy="300" r="160" fill="#06b6d4" opacity="0.1" filter="url(#glow)" class="bg-pulse" />
+
+  <!-- Geometric Transit Grid / Topology Lines -->
+  <g opacity="0.25">
+    <path d="M 0,90 L 1200,90 M 0,180 L 1200,180 M 0,270 L 1200,270" stroke="#334155" stroke-width="1" stroke-dasharray="4 8" />
+    <path d="M 200,0 L 200,360 M 400,0 L 400,360 M 600,0 L 600,360 M 800,0 L 800,360 M 1000,0 L 1000,360" stroke="#334155" stroke-width="1" stroke-dasharray="4 8" />
+  </g>
+
+  <!-- Dynamic Transit Metro Tracks -->
+  <!-- Line 1: Blue / Cyan Trunk Route -->
+  <path id="route1" d="M 40,280 C 250,280 320,120 540,120 L 820,120 C 950,120 1020,240 1160,240" fill="none" stroke="url(#line-cyan)" stroke-width="6" stroke-linecap="round" filter="url(#glow)" />
+  <path d="M 40,280 C 250,280 320,120 540,120 L 820,120 C 950,120 1020,240 1160,240" fill="none" stroke="#e0f2fe" stroke-width="2" stroke-linecap="round" class="flow-path" opacity="0.6" />
+
+  <!-- Line 2: Emerald Express Route -->
+  <path id="route2" d="M 40,90 C 200,90 280,240 480,240 L 780,240 C 920,240 980,80 1160,80" fill="none" stroke="url(#line-emerald)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" />
+  <path d="M 40,90 C 200,90 280,240 480,240 L 780,240 C 920,240 980,80 1160,80" fill="none" stroke="#d1fae5" stroke-width="1.5" stroke-linecap="round" class="flow-path" opacity="0.5" />
+
+  <!-- Line 3: Amber / Purple Regional Loop -->
+  <path id="route3" d="M 120,320 C 300,320 400,60 640,60 C 880,60 960,300 1120,300" fill="none" stroke="url(#line-amber)" stroke-width="4" stroke-linecap="round" filter="url(#glow)" opacity="0.85" />
+
+  <!-- Animated Pulse Rings at Major Interchange Stations -->
+  <circle cx="540" cy="120" r="8" fill="none" stroke="#38bdf8" stroke-width="2" class="ring-pulse-1" />
+  <circle cx="780" cy="240" r="8" fill="none" stroke="#10b981" stroke-width="2" class="ring-pulse-2" />
+  <circle cx="640" cy="60" r="8" fill="none" stroke="#f59e0b" stroke-width="2" class="ring-pulse-1" />
+
+  <!-- Major Transfer Stations (Nodes) -->
+  <g filter="url(#node-glow)">
+    <circle cx="160" cy="280" r="7" fill="#0f172a" stroke="#38bdf8" stroke-width="4" class="node-pulse" />
+    <circle cx="360" cy="180" r="8" fill="#0f172a" stroke="#a855f7" stroke-width="4" class="node-pulse" />
+    <circle cx="540" cy="120" r="9" fill="#0f172a" stroke="#06b6d4" stroke-width="5" class="node-pulse" />
+    <circle cx="640" cy="60" r="8" fill="#0f172a" stroke="#f59e0b" stroke-width="4" class="node-pulse" />
+    <circle cx="780" cy="240" r="9" fill="#0f172a" stroke="#10b981" stroke-width="5" class="node-pulse" />
+    <circle cx="920" cy="150" r="7" fill="#0f172a" stroke="#ec4899" stroke-width="4" class="node-pulse" />
+    <circle cx="1060" cy="240" r="7" fill="#0f172a" stroke="#38bdf8" stroke-width="4" class="node-pulse" />
+  </g>
+
+  <!-- Central Title & Typography Group -->
+  <g text-anchor="middle" transform="translate(600, 150)">
+    <!-- Subtitle Pill Badge -->
+    <rect x="-170" y="-85" width="340" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
+    <text x="0" y="-65" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+      ⚡ THE ULTIMATE ECOSYSTEM
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="-10" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="900" letter-spacing="-0.5" filter="url(#glow)">
+      Awesome Public Transit Management
+    </text>
+
+    <!-- Secondary Tagline -->
+    <text x="0" y="25" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="500">
+      Curated Guide to Enterprise SaaS &amp; Open-Source Transit Platforms
+    </text>
+
+    <!-- Pill Feature Badges -->
+    <g transform="translate(0, 52)" class="floating">
+      <!-- Badge 1: CAD/AVL & GTFS-RT -->
+      <rect x="-295" y="0" width="135" height="26" rx="13" fill="#0f172a" stroke="#06b6d4" stroke-width="1" opacity="0.95" />
+      <text x="-227" y="17" fill="#67e8f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">📡 CAD/AVL &amp; GTFS</text>
+
+      <!-- Badge 2: Scheduling & Rostering -->
+      <rect x="-145" y="0" width="145" height="26" rx="13" fill="#0f172a" stroke="#8b5cf6" stroke-width="1" opacity="0.95" />
+      <text x="-72" y="17" fill="#c4b5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">⏱️ Crew &amp; Fleet Sched</text>
+
+      <!-- Badge 3: Demand-Responsive / DRT -->
+      <rect x="15" y="0" width="140" height="26" rx="13" fill="#0f172a" stroke="#10b981" stroke-width="1" opacity="0.95" />
+      <text x="85" y="17" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🚐 On-Demand &amp; DRT</text>
+
+      <!-- Badge 4: Multimodal MaaS & Sim -->
+      <rect x="170" y="0" width="130" height="26" rx="13" fill="#0f172a" stroke="#f59e0b" stroke-width="1" opacity="0.95" />
+      <text x="235" y="17" fill="#fcd34d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">🚦 MaaS &amp; Simulation</text>
+    </g>
+  </g>
+</svg>
