@@ -60,359 +60,75 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-* **INIT**
-
-  Integrated public-transport technology provider covering planning, scheduling, intermodal transport control, fleet management, passenger information, ticketing, and related operational systems. Its MOBILE suite includes planning systems such as MOBILE-PLAN and MOBILE-PERDIS and the MOBILE-ITCS intermodal transport control system.
-
-
-
-* **Trapeze Group**
-
-  Major transit software ecosystem covering scheduling, workforce management, operations, dispatch, maintenance, passenger information, paratransit, fixed-route planning, and transit asset management. Trapeze's products are used across bus, rail, paratransit, and demand-responsive operations.
-
-
-
-* **GIRO HASTUS**
-
-  Enterprise public-transit planning and operations suite covering network planning, timetabling, vehicle scheduling, crew scheduling, operations, on-demand transportation, customer information, and system integration. HASTUS is particularly strong in complex scheduling and optimization.
-
-
-
-* **Ecolane**
-
-  Transit scheduling and dispatch platform particularly focused on paratransit, demand-responsive transportation, non-emergency transportation, and flexible mobility services.
-
-
-
-* **Passio Technologies**
-
-  Transit technology platform providing passenger information, vehicle tracking, transit apps, digital signage, fleet monitoring, and related transit-management capabilities.
-
-
-
-* **Optibus**
-
-  Cloud-native public transportation operating platform covering network planning, scheduling, rostering, operations, real-time control and monitoring, passenger information, and driver workflows. Its optimization engine handles vehicle and crew scheduling and operational constraints.
-
-
-
-* **Swiftly**
-
-  Transit data and operations platform focused on real-time vehicle tracking, transit performance analytics, passenger information, service planning, prediction, and operational intelligence.
-
-
-
-* **Via / Remix**
-
-  Via's Remix platform provides map-based transit planning, network redesign, scenario analysis, service planning, and transportation network design. Remix became part of Via's broader transportation technology ecosystem.
-
-
-
-* **RouteMatch**
-
-  Transit-management software historically focused on demand-response/paratransit scheduling, dispatch, reservations, and transportation operations. RouteMatch became part of the Trapeze ecosystem.
-
-
-
-* **Avail Technologies**
-
-  Transit technology provider offering CAD/AVL, dispatch, passenger information, real-time operations, scheduling, and related public transportation software.
-
-
-
-* **Clever Devices**
-
-  Public transportation technology provider specializing in intelligent transportation systems, CAD/AVL, real-time passenger information, fleet management, transit signal priority, and operational technology.
-
-
-
-* **Vontas**
-
-  Transit software portfolio covering planning, scheduling, operations, CAD/AVL, passenger information, demand-response transportation, and transit analytics.
-
-
-
-* **Modaxo Transit**
-
-  Transportation technology group containing multiple public-transit software businesses across planning, scheduling, operations, fleet, passenger information, and mobility management.
-
-
-
-* **Spare**
-
-  Cloud-based demand-responsive transit and paratransit platform covering booking, scheduling, dispatch, optimization, driver tools, and rider communications.
-
-
-
-* **RideCo**
-
-  On-demand public transportation platform for dynamically routed transit, microtransit, demand-responsive transportation, booking, dispatch, and real-time fleet management.
-
-
-
-* **Via Transportation**
-
-  Digital transportation platform providing on-demand transit, microtransit, transit technology, network design, and software for public transportation agencies and operators.
-
-
-
-* **Moovit**
-
-  Transit mobility platform providing journey planning, transit data, passenger information, MaaS capabilities, and transit-agency data services.
-
-
-
-* **Transit**
-
-  Passenger-facing public transportation application providing real-time transit information, journey planning, vehicle tracking, and multimodal transportation information.
-
-
-
-* **Swiftly Transit Operations**
-
-  Operations-oriented platform providing transit agencies with real-time data, service monitoring, vehicle predictions, analytics, and tools for improving reliability.
-
-
-
-* **KUBA**
-
-  Public transport technology provider focused on fare collection, ticketing, account-based ticketing, passenger information, and integrated transit systems.
-
-
-
-* **GMV**
-
-  Transportation technology provider offering fleet management, CAD/AVL, passenger information, scheduling, traffic management, and intelligent transportation systems.
-
-
-
-* **Conduent Transportation**
-
-  Enterprise transportation technology portfolio covering fare collection, transit operations, intelligent transportation systems, tolling, and mobility technology.
-
-
-
-* **INIT MOBILE-ITCS**
-
-  INIT's real-time intermodal transport control system for dispatchers and control centers, providing network visibility, vehicle monitoring, disruption management, and operational control.
-
-
-
-* **INIT MOBILE-PLAN**
-
-  Planning and scheduling component of INIT's transit ecosystem for planning networks, schedules, vehicles, and operational resources.
-
-
-
-* **INIT MOBILE-PERDIS**
-
-  INIT's personnel-disposition and workforce-planning solution for transit operations.
-
-
-
-* **Trapeze PASS**
-
-  Fixed-route transit planning and scheduling ecosystem covering route planning, schedules, vehicle blocks, operator duties, and operational planning.
-
-
-
-* **Trapeze OPS**
-
-  Operations-focused software for transit agencies, including dispatch, service monitoring, schedules, trips, crew assignments, and real-time operational workflows.
-
-
-
-* **Trapeze Workforce Management**
-
-  Workforce platform covering operator sign-ups, bidding, dispatch, timekeeping, workforce management, and payroll integration.
-
-
-
-* **Trapeze FX**
-
-  Transit scheduling and operations software family associated with fixed-route transit planning and scheduling.
-
-
-
-* **Trapeze EAM**
-
-  Enterprise asset-management capabilities for transit fleets and maintenance operations.
-
-
-
-* **Trapeze PASS-Web**
-
-  Web-oriented transit scheduling and planning workflows within the Trapeze ecosystem.
-
-
-
-* **HASTUS-PLAN**
-
-  HASTUS planning module for designing transit networks and evaluating service changes.
-
-
-
-* **HASTUS-Vehicle**
-
-  Vehicle scheduling and blocking module for creating optimized vehicle schedules, blocks, trips, and timetables.
-
-
-
-* **HASTUS-Crew**
-
-  Crew scheduling module for constructing optimized operator duties while considering labor rules, qualifications, breaks, and operational constraints.
-
-
-
-* **HASTUS-MiniBus**
-
-  Specialized HASTUS capability for planning and scheduling smaller or flexible transit operations, including electric-bus operations.
-
-
-
-* **HASTUS-OnDemand**
-
-  Demand-responsive and on-demand transportation planning and scheduling capability.
-
-
-
-* **HASTUS-Operations**
-
-  Operational control capabilities for managing service changes, assignments, disruptions, and day-to-day transit operations.
-
-
-
-* **HASTUS-Customer**
-
-  Customer-information functionality for communicating schedules, service information, and transit changes.
-
-
-
-* **Passio GO**
-
-  Passenger-facing transit information and tracking solution providing real-time vehicle information and transit agency communication.
-
-
-
-* **Passio Transit Technologies**
-
-  Broader Passio ecosystem covering vehicle tracking, passenger information, mobile applications, digital signage, and transit technology.
-
-
-
-* **Swiftly Transit Data**
-
-  Transit data platform focused on collecting, normalizing, analyzing, and operationalizing transit vehicle and service data.
-
-
-
-* **Swiftly Prediction Engine**
-
-  Real-time prediction capabilities for vehicle arrival and service performance.
-
-
-
-* **Remix Planning**
-
-  Transit network planning and scenario-analysis platform enabling agencies to design routes, compare scenarios, evaluate accessibility, and communicate service changes.
-
-
-
-* **Ecolane Scheduler**
-
-  Demand-responsive and paratransit scheduling engine designed to optimize trips, vehicle assignments, and operational resources.
-
-
-
-* **Ecolane Dispatch**
-
-  Dispatch and operational-management capabilities for demand-responsive transportation.
-
-
-
-* **Spare Platform**
-
-  Digital infrastructure for demand-responsive transportation including rider booking, scheduling, dispatch, driver applications, and service management.
-
-
-
-* **RideCo On-Demand Transit**
-
-  Dynamic transit-management platform supporting booking, vehicle routing, dispatch, passenger communications, and demand-responsive operations.
-
-
-
-* **Clever Devices CAD/AVL**
-
-  Computer-aided dispatch and automatic vehicle-location technology for monitoring transit vehicles, managing service, and supporting real-time operations.
-
-
-
-* **Clever Devices TransitMaster**
-
-  Transit management and CAD/AVL ecosystem used for real-time fleet management, dispatch, passenger information, and operational control.
-
-
-
-* **Avail CAD/AVL**
-
-  Computer-aided dispatch and automatic vehicle-location capabilities for fixed-route transit operations.
-
-
-
-* **Vontas TransitMaster**
-
-  Transit operations platform associated with CAD/AVL, dispatch, passenger information, and transit fleet management.
-
-
-
-* **Vontas Planning**
-
-  Planning and scheduling tools for transit agencies.
-
-
-
-* **Moovit Transit Data**
-
-  Transit-data platform supplying schedules, real-time information, routing, and mobility data to agencies and mobility applications.
-
-
-
-* **Via Microtransit**
-
-  Software platform for public agencies operating demand-responsive and dynamically routed transit services.
-
-
-
-* **Via TransitTech**
-
-  Broader technology platform integrating transit planning, on-demand services, routing, fleet operations, and passenger-facing applications.
-
-
-
-* **INIT MOBILEguide**
-
-  Passenger information and transit communication capabilities within INIT's ecosystem.
-
-
-
-* **INIT MOBILEstop**
-
-  Passenger-information technology for stops and transit stations.
-
-
-
-* **INIT MOBILEefficiency**
-
-  Transit operational and efficiency capabilities focused on optimizing fleet and energy use.
-
-
-
-* **INIT MOBILEvario**
-
-  Flexible transit-management capabilities supporting changing service and operational requirements.
+### Major Transit Management SaaS Platforms
+
+| Platform / Vendor | Focus Areas & Core Capabilities | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **INIT** | Integrated ITS, Planning, CAD/AVL, Ticketing | Integrated public transport technology provider covering planning, scheduling, intermodal transport control (MOBILE-ITCS), fleet management, passenger info, and account-based ticketing. | $3,333 / month ($40,000 / year base license) | No free forever plan; 30-day sandbox pilot trial limited to synthetic telemetry of 15 test vehicles |
+| **Trapeze Group** | Enterprise Scheduling, Workforce, CAD/AVL, Paratransit | Major enterprise transit software ecosystem spanning fixed-route scheduling, operations dispatch, operator bidding/workforce management, paratransit, and EAM. | $2,083 / month ($25,000 / year base single module) | No free forever plan; 30-day guided pilot evaluation limited to 20 vehicle records and 5 operator rosters |
+| **GIRO HASTUS** | Advanced Timetabling, Vehicle/Crew Optimization, Rostering | Leading enterprise transit planning and operations suite known for mathematical optimization algorithms handling complex vehicle blocking, collective bargaining, and crew scheduling. | $2,500 / month ($30,000 / year base scheduling tier) | No free forever plan; 30-day proof-of-concept sandbox trial limited to 1 depot and up to 30 vehicle blocks |
+| **Optibus** | Cloud-Native Scheduling, Rostering, EV & Operations | Cloud-native public transportation platform powered by AI optimization for route planning, timetabling, vehicle blocking, crew rostering, EV charging scheduling, and live operations. | $1,500 / month ($18,000 / year base planning tier) | No free forever plan; 14-day sandbox trial limited to 1 agency network model and up to 50 route variations |
+| **Swiftly** | Real-Time Transit Data, CAD/AVL, Prediction Analytics | Cloud-based transit data engine providing high-accuracy vehicle arrival predictions, real-time dispatch tools, speed maps, and on-time performance analytics. | $1,000 / month ($12,000 / year base GPS tier) | No free forever plan; 30-day live pilot trial limited to 25 tracked vehicles and 5 active routes |
+| **Remix (by Via)** | Transit Network Planning, Scenario Modeling, Demographics | Map-based transit planning and scheduling tool enabling transit planners to design routes, evaluate Title VI demographic impacts, and compute operational cost estimates instantly. | $833 / month ($10,000 / year base tier for <20 routes) | No free forever plan; 14-day interactive sandbox trial limited to 1 municipality boundary & standard census layers |
+| **Spare** | On-Demand Transit, Paratransit, Microtransit Dispatch | Cloud-based microtransit and paratransit software providing automated on-demand dispatch, driver apps, pooling optimization, and rider booking interfaces. | $20 / vehicle / month ($1,200 / month minimum tier) | No free forever plan; 14-day sandbox dispatch trial limited to 5 test vehicles and 50 simulated bookings |
+| **RideCo** | Demand-Responsive Transit & Microtransit Optimization | High-capacity microtransit and paratransit platform focusing on dynamic routing, shared-ride optimization, automated dispatch, and agency fleet coordination. | $3,500 / month ($42,000 / year base platform tier) | No free forever plan; 30-day agency pilot simulation limited to 1 designated zone and 10 active vehicles |
+| **Transit** | Consumer Journey Planning & Real-Time Tracking | Passenger-facing mobile navigation app providing real-time vehicle positions, crowdsourced trip tracking (GO), multimodal routing, and agency mobility integrations. | $4.99 / month or $24.99 / year (Transit Royale); Agency sponsorship from $1,200 / year | Free forever plan includes real-time ETA for 2 closest routes per mode and navigation; 7-day free trial for Transit Royale (unlimited routes/maps) |
+| **Moovit** | Multimodal MaaS, Transit Data APIs, On-Demand Routing | Urban mobility platform and data service providing passenger navigation, transit APIs, trip planning SDKs, and flexible on-demand microtransit dispatch. | $1.99 / month (Moovit+ app) or $500 / month for Developer Transit Data API | Free forever plan includes ad-supported multimodal journey planning & arrival alerts; 7-day free trial for Moovit+ (ad-free & SafeRide) |
+| **Passio Technologies** | Real-Time Fleet Tracking, Passenger Info, Smart Signage | Transit technology suite delivering passenger apps (Passio GO!), automated passenger counting (APC), GPS fleet tracking, and on-board digital display integration. | $100 / vehicle / month ($1,200 / vehicle / year starting tier) | Free forever mobile app for riders; 30-day agency evaluation trial limited to 5 test vehicle tracking feeds |
+| **Ecolane** | Paratransit Scheduling, NEMT, Dynamic Dispatch | Specialized demand-response scheduling engine designed for paratransit and non-emergency medical transportation with automated dispatch and driver manifest management. | $1,250 / month ($15,000 / year base tier) | No free forever plan; 30-day pilot trial limited to historical simulation of up to 100 daily paratransit trips |
+| **Clever Devices** | Intelligent Transportation Systems (ITS), CAD/AVL, RTPI | Provider of on-board vehicle computers, transit signal priority, automated voice announcements, automated vehicle monitoring, and control center CAD/AVL. | $2,083 / month ($25,000 / year base cloud analytics tier) | No free forever plan; 30-day telemetry evaluation sandbox limited to 10 vehicle tracking data streams |
+| **Avail Technologies** | Municipal CAD/AVL, ITS, Fixed-Route Operations | Transit operations and CAD/AVL software tailored to small and medium-sized public transit agencies for dispatch, tracking, and NTD compliance reporting. | $1,667 / month ($20,000 / year base municipal software tier) | No free forever plan; 30-day staging demo limited to 1 pre-configured agency network and 10 simulated buses |
+| **Vontas** | Fixed-Route CAD/AVL, Dispatch, Planning & Yard Management | Transit management spin-off of Trapeze providing CAD/AVL (TransitMaster), passenger communications, yard management, and modular scheduling tools. | $2,083 / month ($25,000 / year base module tier) | No free forever plan; 30-day software evaluation sandbox limited to 15 vehicle connections and 2 dispatch seats |
+| **Modaxo Transit** | Global Transportation Software Portfolio Solutions | Global conglomerate operating dedicated transit technology business units covering scheduling, ticketing, CAD/AVL, and passenger data systems. | $2,500 / month ($30,000 / year base portfolio module tier) | No free forever plan; 30-day pilot deployment limited to 1 selected subsidiary tool and 15 simulated vehicles |
+| **RouteMatch** | Paratransit Dispatch, Demand-Response & Billing | Paratransit and flexible-route scheduling platform (part of Trapeze) providing trip booking, automated vehicle scheduling, and coordinated human services transit. | $1,500 / month ($18,000 / year base rural/small-agency tier) | No free forever plan; 14-day paratransit dispatch simulation limited to 10 test vehicles and 50 reservations |
+| **Via Transportation** | Microtransit, On-Demand Routing & Autonomous Transit | Turnkey and SaaS microtransit platform offering algorithmic vehicle pooling, dynamic routing, driver dispatch apps, and rider booking interfaces. | $4,000 / month ($48,000 / year base on-demand SaaS tier) | No free forever plan; 30-day simulation environment limited to 1 virtual service zone and 10 vehicle simulations |
+| **KUBA** | Account-Based Ticketing, cEMV Payments & Back Office | Smart transit ticketing platform delivering open-loop contactless cEMV payments, mobile ticketing, validation hardware integrations, and cloud fare engines. | $1,000 / month base cloud fee plus 2.5% + $0.05 per fare transaction | No free forever plan; 14-day developer sandbox trial limited to 100 test ticketing transactions and 2 virtual validators |
+| **GMV** | ITS, Fleet Management, CAD/AVL & Ticketing | Global intelligent transport systems provider offering cloud-based CAD/AVL (Syncromatics), real-time passenger info displays, and ticketing hardware. | $1,800 / month ($21,600 / year base cloud tracking tier) | No free forever plan; 30-day live tracking portal trial limited to 10 active GPS trackers / test vehicles |
+| **Conduent Transportation** | Enterprise Fare Collection, Tolling & Fleet CAD/AVL | Enterprise transit technology suite delivering automated fare collection (AFC), transit operations management, CAD/AVL integration, and mobility analytics. | $4,166 / month ($50,000 / year base enterprise tier) | No free forever plan; 30-day integration testbed limited to 5 test fare gates and 20 simulated vehicle transponders |
+
+---
+
+### Specialized SaaS Modules & Sub-Systems
+
+| Product / Module | Parent Platform | Functional Area | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **INIT MOBILE-ITCS** | INIT | CAD/AVL & Dispatch | Real-time intermodal transport control system for dispatchers and operations control centers with live incident intervention. | $2,500 / month ($30,000 / year base tier) | No free forever plan; 30-day testbed limited to 10 virtual vehicle telemetry feeds |
+| **INIT MOBILE-PLAN** | INIT | Network Planning | Planning and scheduling component for designing route networks, timetables, block creation, and vehicle duties. | $2,000 / month ($24,000 / year base tier) | No free forever plan; 30-day evaluation trial limited to 1 transit sub-network (max 20 lines) |
+| **INIT MOBILE-PERDIS** | INIT | Crew Rostering & Dispatch | Personnel disposition and duty rostering system considering driver preferences, working hour regulations, and shift bidding. | $1,800 / month ($21,600 / year base tier) | No free forever plan; 30-day staging sandbox limited to 25 driver profiles and 1 roster cycle |
+| **INIT MOBILEguide** | INIT | Passenger Information | Omnichannel real-time passenger information engine feeding web widgets, mobile apps, and smart displays. | $800 / month ($9,600 / year base tier) | No free forever plan; 14-day API sandbox limited to 5 stop location feeds |
+| **INIT MOBILEstop** | INIT | Station Infotainment | Station and stop digital signage management for electronic paper and LED/LCD passenger arrival displays. | $600 / month ($7,200 / year base tier) | No free forever plan; 14-day digital display sandbox limited to 3 virtual digital sign outputs |
+| **INIT MOBILEefficiency** | INIT | Eco-Driving & Fleet Analytics | Vehicle driving style analysis, energy consumption optimization, and electric bus battery state-of-charge monitoring. | $1,200 / month ($14,400 / year base tier) | No free forever plan; 30-day analytics trial limited to 10 vehicle CAN-bus streams |
+| **INIT MOBILEvario** | INIT | Fare Management | Modular fare calculation and fare collection software managing multi-tariff structures and smart card ticketing. | $1,500 / month ($18,000 / year base tier) | No free forever plan; 14-day tariff simulation sandbox limited to 50 test transactions |
+| **Trapeze PASS** | Trapeze Group | Paratransit Scheduling | Comprehensive demand-response and paratransit scheduling tool managing client eligibility, ride booking, and routing. | $2,000 / month ($24,000 / year base tier) | No free forever plan; 30-day pilot trial limited to 10 test vehicles and 100 client records |
+| **Trapeze OPS** | Trapeze Group | Dispatch & Real-Time Ops | Real-time operations management tool handling day-of-service operator sign-ins, vehicle pull-outs, and detour logging. | $1,750 / month ($21,000 / year base tier) | No free forever plan; 30-day operational sandbox limited to 20 daily runs |
+| **Trapeze Workforce** | Trapeze Group | Crew Bidding & Timekeeping | Operator workforce platform managing automated seniority bidding, daily dispatch rosters, timekeeping, and payroll export. | $1,500 / month ($18,000 / year base tier) | No free forever plan; 30-day workforce sandbox limited to 30 operator profiles |
+| **Trapeze FX** | Trapeze Group | Fixed-Route Scheduling | Fixed-route scheduling software for creating master timetables, vehicle interlining, and driver run-cutting. | $1,800 / month ($21,600 / year base tier) | No free forever plan; 30-day scheduling demo limited to 10 route master files |
+| **Trapeze EAM** | Trapeze Group | Fleet Asset Management | Enterprise transit asset management software for preventative vehicle maintenance, parts inventory, and work order tracking. | $1,600 / month ($19,200 / year base tier) | No free forever plan; 30-day maintenance sandbox limited to 25 vehicle asset records |
+| **Trapeze PASS-Web** | Trapeze Group | Rider Web Portal | Web booking interface allowing paratransit riders and care facilities to book and manage trips online. | $750 / month ($9,000 / year base tier) | No free forever plan; 14-day web portal trial limited to 20 test passenger accounts |
+| **HASTUS-PLAN** | GIRO HASTUS | Network Design & Timetabling | Strategic network design and corridor timetable development with multi-scenario service evaluation. | $2,000 / month ($24,000 / year base tier) | No free forever plan; 30-day planning sandbox limited to 15 route alignments |
+| **HASTUS-Vehicle** | GIRO HASTUS | Vehicle Blocking Optimization | High-performance vehicle block optimization minimizing deadhead mileage, vehicle requirements, and layover times. | $2,200 / month ($26,400 / year base tier) | No free forever plan; 30-day optimization trial limited to 25 peak vehicle schedules |
+| **HASTUS-Crew** | GIRO HASTUS | Crew Run-Cutting & Rostering | Mathematical crew scheduling optimizer satisfying union rules, break regulations, overtime constraints, and shift preferences. | $2,500 / month ($30,000 / year base tier) | No free forever plan; 30-day optimization sandbox limited to 30 operator duties |
+| **HASTUS-MiniBus** | GIRO HASTUS | Small Fleet & EV Scheduling | Specialized scheduling module for paratransit, on-demand shuttles, and electric bus battery replenishment management. | $1,500 / month ($18,000 / year base tier) | No free forever plan; 30-day trial limited to 10 electric/minibus vehicles |
+| **HASTUS-OnDemand** | GIRO HASTUS | Microtransit Integration | Integrated planning module bridging scheduled fixed routes with on-demand and flexible transit feeder zones. | $1,400 / month ($16,800 / year base tier) | No free forever plan; 30-day simulation trial limited to 2 flexible service zones |
+| **HASTUS-Operations** | GIRO HASTUS | Daily Dispatch & Service Control | Day-of-service dispatch management, vehicle assignments, operator substitution, and delay remediation. | $2,000 / month ($24,000 / year base tier) | No free forever plan; 30-day live dispatch testbed limited to 20 active service runs |
+| **HASTUS-Customer** | GIRO HASTUS | Passenger Timetable Publishing | Automated generation of passenger timetables, web timetable APIs, and GTFS schedule exports. | $900 / month ($10,800 / year base tier) | No free forever plan; 14-day export sandbox limited to 5 published timetables |
+| **Passio GO!** | Passio Technologies | Passenger Mobile App | Passenger-facing mobile app providing live GPS bus tracking, estimated arrival times, and agency push alerts. | Free for riders; Agency setup from $1,200 / year | Free forever for riders; 30-day agency trial limited to 5 bus GPS feeds |
+| **Passio Transit Technologies**| Passio Technologies | Agency Fleet Management | Cloud fleet tracking, automated passenger counts (APC), driver behavior tracking, and maintenance logs. | $100 / vehicle / month ($1,200 / vehicle / year) | No free forever plan; 30-day pilot portal limited to 5 test vehicles |
+| **Swiftly Transit Data** | Swiftly | GTFS-RT Pipeline & Data Cleaner | Normalization and validation engine turning raw GPS and CAD/AVL feeds into clean, standardized GTFS-RT data. | $800 / month ($9,600 / year base tier) | No free forever plan; 30-day data pipeline trial limited to 2 GTFS-RT feed outputs |
+| **Swiftly Prediction Engine**| Swiftly | Machine Learning ETAs | Machine-learning arrival prediction engine generating accurate real-time predictions for passengers and displays. | $900 / month ($10,800 / year base tier) | No free forever plan; 30-day prediction validation trial limited to 15 bus routes |
+| **Remix Planning** | Via / Remix | Route Design & Demographics | Fast transit mapping and demographic accessibility analysis tool used by transit planners for service redesign. | $833 / month ($10,000 / year base tier) | No free forever plan; 14-day sandbox trial limited to 1 urban planning area |
+| **Ecolane Scheduler** | Ecolane | Automated Paratransit Routing | Automated continuous optimization engine generating efficient shared-ride paratransit trip itineraries. | $1,000 / month ($12,000 / year base tier) | No free forever plan; 30-day scheduling trial limited to 50 simulated trip manifests |
+| **Ecolane Dispatch** | Ecolane | Real-Time Demand Dispatch | Real-time paratransit dispatch console managing same-day cancellations, will-call trips, and driver messaging. | $800 / month ($9,600 / year base tier) | No free forever plan; 30-day dispatch sandbox limited to 10 active driver tablets |
+| **Spare Platform** | Spare | Microtransit & Paratransit SaaS | Full-stack platform supporting rider app booking, automated pooling algorithms, driver turn-by-turn navigation, and billing. | $20 / vehicle / month ($1,200 / month min) | No free forever plan; 14-day sandbox trial limited to 5 simulated vehicles |
+| **RideCo On-Demand** | RideCo | Dynamic Microtransit SaaS | Cloud routing platform optimizing shared-ride microtransit, paratransit commingling, and first/last mile services. | $3,500 / month ($42,000 / year base tier) | No free forever plan; 30-day simulation pilot limited to 1 microtransit zone and 10 vehicles |
+| **Clever Devices CAD/AVL** | Clever Devices | Computer-Aided Dispatch & AVL | Centralized CAD/AVL software giving dispatchers real-time visibility over fleet locations, schedules, and headways. | $2,083 / month ($25,000 / year base tier) | No free forever plan; 30-day telemetry sandbox limited to 10 vehicle tracking streams |
+| **Clever Devices TransitMaster**| Clever Devices | Comprehensive ITS Suite | Full-suite intelligent transportation system connecting on-board hardware, voice announcements, APC, and central dispatch. | $3,000 / month ($36,000 / year base tier) | No free forever plan; 30-day pilot testing portal limited to 15 virtual vehicle endpoints |
+| **Avail CAD/AVL** | Avail Technologies | Dispatch & GPS Tracking | Dispatch and automatic vehicle location system tailored for fixed-route transit agencies to monitor headway and schedules. | $1,667 / month ($20,000 / year base tier) | No free forever plan; 30-day demo sandbox limited to 10 simulated buses |
+| **Vontas TransitMaster** | Vontas | Fleet CAD/AVL & Dispatch | Real-time vehicle management and dispatch platform providing headway management, incident tracking, and driver comms. | $2,083 / month ($25,000 / year base tier) | No free forever plan; 30-day evaluation sandbox limited to 15 vehicle connections |
+| **Vontas Planning** | Vontas | Transit Timetabling & Run-Cut | Timetabling, route design, and run-cutting software built for mid-size transit operators. | $1,500 / month ($18,000 / year base tier) | No free forever plan; 30-day scheduling sandbox limited to 10 route files |
+| **Moovit Transit Data** | Moovit | Global Transit APIs & Feeds | Developer APIs providing global GTFS schedule queries, multimodal routing, and real-time transit disruption data. | $500 / month ($6,000 / year developer base tier) | Free forever plan for public mobile app; 14-day developer API trial limited to 1,000 test API requests |
+| **Via Microtransit** | Via Transportation | Demand-Responsive Software | Algorithmic shared-ride routing platform powering municipal microtransit, night shuttles, and paratransit operations. | $4,000 / month ($48,000 / year base tier) | No free forever plan; 30-day simulation sandbox limited to 1 service zone and 10 vehicles |
+| **Via TransitTech** | Via Transportation | Integrated Transit OS | Unified mobility suite uniting fixed-route planning, microtransit dispatch, paratransit operations, and rider apps. | $5,000 / month ($60,000 / year base tier) | No free forever plan; 30-day enterprise evaluation trial limited to 1 unified service zone |
 
 
 
